@@ -55,6 +55,7 @@ jobs:
         with:
           profile: minimal
           override: true
+          toolchain: stable
 
       - name: Cache target directory
         uses: actions/cache@v2
