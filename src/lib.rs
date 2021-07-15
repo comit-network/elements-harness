@@ -17,7 +17,6 @@ pub mod image;
 use crate::image::ElementsCore;
 use reqwest::Url;
 use testcontainers::{clients, Container, Docker, RunArgs};
-use thiserror::Error;
 
 pub type Result<T> = std::result::Result<T, Error>;
 
