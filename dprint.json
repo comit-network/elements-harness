@@ -9,7 +9,7 @@
   },
   "includes": ["**/*.{md,rs,toml,ts,js,tsx,json}"],
   "excludes": [
-    "**/target",
+    "**/target"
   ],
   "plugins": [
     "https://plugins.dprint.dev/markdown-0.4.1.wasm",
