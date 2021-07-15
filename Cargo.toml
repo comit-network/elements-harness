@@ -1,0 +1,16 @@
+[package]
+name = "elements-harness"
+version = "0.1.0"
+authors = [ "CoBloX Team <team@coblox.tech>" ]
+edition = "2018"
+
+[dependencies]
+hex = "0.4.2"
+hmac = "0.10"
+rand = "0.8"
+reqwest = "0.11"
+sha2 = "0.9"
+testcontainers = "0.12"
+thiserror = "1"
+tracing = "0.1"
+url = "2"
